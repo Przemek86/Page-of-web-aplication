@@ -1,0 +1,26 @@
+.background-1 {
+  background-color: #6200EA;
+  background-size: cover;
+  height: 800px;
+  
+  
+}
+
+
+
+.background-2 {
+  background:  url('https://raw.githubusercontent.com/CodeBerrySchool/sitebuilder-practice-signup-pl/master/assets/bailey-zindel-396398-unsplash.jpg'); 0% 0% no-repeat;
+
+opacity: 1;
+  background-size: cover;
+  height: 800px;
+  
+}
+
+.main {
+  margin-top: 281px;
+  margin-bottom: 282px;
+  text-align: center;
+  margin-left: auto;
+  
+}
