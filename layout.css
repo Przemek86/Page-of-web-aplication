@@ -1,3 +1,7 @@
+.container-fluid {
+  box-sizing: border-box;
+}
+
 .background-1 {
   background-color: #6200EA;
   background-size: cover;
@@ -24,3 +28,49 @@ opacity: 1;
   margin-left: auto;
   
 }
+
+.sign {
+   margin-right: 60px;
+  margin-left: 60px;
+  
+
+ 
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media (min-width: 760px) {
+  .font-2 {
+     padding-left: 60px;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  }
+  
+  .input-1 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
