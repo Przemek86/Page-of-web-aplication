@@ -1,66 +1,69 @@
+        /*---------------------------------------------------------*\
+                                    LAYOUT
+
+        \*---------------------------------------------------------*/
+
+
 .container-fluid {
-  box-sizing: border-box;
+  box-sizing:            border-box;
 }
 
 .background-1 {
-  background-color: #6200EA;
-  background-size: cover;
-  height: 800px;
-  
-  
-}
-
-
+  background-color:      #6200EA;
+  background-size:       cover;
+  height:                800px;
+  }
 
 .background-2 {
-  background:  url('https://raw.githubusercontent.com/CodeBerrySchool/sitebuilder-practice-signup-pl/master/assets/bailey-zindel-396398-unsplash.jpg'); 0% 0% no-repeat;
-
-opacity: 1;
-  background-size: cover;
-  height: 800px;
-  
-}
+  background:            url('https://raw.githubusercontent.com/CodeBerrySchool/sitebuilder-practice-signup-pl/master/assets/bailey-zindel-396398-unsplash.jpg') 0% 0%  no-repeat;
+  opacity:               1;
+  background-size:       cover;
+  height:                800px;
+  }
 
 .main {
-  margin-top: 281px;
-  margin-bottom: 282px;
-  text-align: center;
-  margin-left: auto;
-  
-}
+  margin-top:            281px;
+  margin-bottom:         282px;
+  text-align:            center;
+  margin-left:           auto;
+  }
 
 .sign {
-   margin-right: 60px;
-  margin-left: 60px;
-  
-
- 
-}
+   margin-right:         60px;
+  margin-left:           60px;
+   position:             relative;
+    top:                 60px;
+  }
 
 .email {
-  margin-bottom: 10px;
+  margin-bottom:         10px;
 }
 
+.footer {
+    display:            flex;
+    align-items:        center;
+    justify-content:    center;
+}
 
-
-
+/*-------------------------------------------*\
+                ZAPYTANIE O MEDIA
+\*-------------------------------------------*/
 
 
 
 @media (min-width: 760px) {
   .font-2 {
-     padding-left: 60px;
-  padding-top: 60px;
-  padding-right: 60px;
-  padding-bottom: 30px;
+  padding-left:         60px;
+  padding-top:          60px;
+  padding-right:        60px;
+  padding-bottom:       30px;
   }
   
   .input-1 {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left:       60px;
+    padding-right:      60px;
   }
   
-
 }
 
 
